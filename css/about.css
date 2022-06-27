@@ -168,25 +168,26 @@ border:none;
 /*하단*/
 footer{
 	display:flex;
-	max-width:800px;	
+	max-width:850px;	
 	margin-bottom:200px;
 	margin-top:40px;
 }
-#music{
+#music{	
 	width:450px;	
 	padding-right:50px;	
 	border-right:1px solid gray;
 }
 #music h3{
 	padding-left:300px;
+	margin-bottom:20px;
 }
 #music div{
 	padding-top:20px;	
-	padding-bottom:20px;
+	margin-bottom:20px;
 	text-align:center;
 }
 #music h4{
-	padding-top:10px;
+	padding-top:10px;	
 }
 
 #music rt{
@@ -198,12 +199,18 @@ footer{
 	color:gray;
 	width:1px;
 	border:none;
-	height:1100px;
+	height:1150px;
 }
 #story{
 	width:300px;	
 	text-align:right;	
+	font-size:0.9rem;
+	line-height:180%;
 }
 #story h3{
 	padding-right:10px;
+	margin-bottom:40px;
+}
+#story p{
+	font-size:0.9rem;
 }
